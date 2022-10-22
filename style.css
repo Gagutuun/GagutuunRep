@@ -3,23 +3,25 @@
     src: url(src/static/Lora-Regular.ttf);
 }
 
-header {
+.header {
+    float: left;
+    width: 100%;
     height: 147px;
     left: 0px;
     right: 0px;
     top: 0px;
-    background: rgba(222, 222, 222, 0.5);
+    background-color: rgba(222, 222, 222, 0.5);
     backdrop-filter: blur(10px);
     text-align: center;
     font-size: 30px;
 }
+
 
 body {
     background-image: url(src/noise.png);
 }
 
 .main__quote {
-    position: absolute;
     text-align: center;
     margin-top: 247px;
     font-family: 'Lora';
